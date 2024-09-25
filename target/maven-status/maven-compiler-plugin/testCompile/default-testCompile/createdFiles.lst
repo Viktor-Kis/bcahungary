@@ -1,0 +1,8 @@
+com\bcahungary\acme\WorkItemScraper.class
+com\bcahungary\acme\WorkItem.class
+com\bcahungary\acme\LogoutTest.class
+com\bcahungary\acme\WebsiteLoadTest.class
+com\bcahungary\acme\WorkItemFileWriter.class
+com\bcahungary\acme\WorkItemTest.class
+com\bcahungary\acme\LoginTest.class
+com\bcahungary\acme\TestUtils.class

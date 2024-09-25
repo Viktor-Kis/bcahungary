@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-25T01:38:31 CEST" name="Surefire suite" finished-at="2024-09-25T01:39:19 CEST" duration-ms="47632">
+    <groups>
+    </groups>
+    <test started-at="2024-09-25T01:38:31 CEST" name="Surefire test" finished-at="2024-09-25T01:39:19 CEST" duration-ms="47632">
+      <class name="com.bcahungary.acme.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bcahungary.acme.LoginTest@7bd4937b]" started-at="2024-09-25T01:38:31 CEST" name="setUp" finished-at="2024-09-25T01:38:34 CEST" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:com.bcahungary.acme.LoginTest@7bd4937b]" started-at="2024-09-25T01:38:34 CEST" name="testLogin" finished-at="2024-09-25T01:38:38 CEST" duration-ms="4138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bcahungary.acme.LoginTest@7bd4937b]" started-at="2024-09-25T01:38:38 CEST" name="tearDown" finished-at="2024-09-25T01:38:38 CEST" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bcahungary.acme.LoginTest -->
+      <class name="com.bcahungary.acme.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bcahungary.acme.LogoutTest@306e95ec]" started-at="2024-09-25T01:38:38 CEST" name="setUp" finished-at="2024-09-25T01:38:44 CEST" duration-ms="5217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogout()[pri:0, instance:com.bcahungary.acme.LogoutTest@306e95ec]" started-at="2024-09-25T01:38:44 CEST" name="testLogout" finished-at="2024-09-25T01:38:46 CEST" duration-ms="2110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bcahungary.acme.LogoutTest@306e95ec]" started-at="2024-09-25T01:38:46 CEST" name="tearDown" finished-at="2024-09-25T01:38:46 CEST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bcahungary.acme.LogoutTest -->
+      <class name="com.bcahungary.acme.WorkItemTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bcahungary.acme.WorkItemTest@bae7dc0]" started-at="2024-09-25T01:38:49 CEST" name="setUp" finished-at="2024-09-25T01:38:57 CEST" duration-ms="7771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWorkItemsList()[pri:0, instance:com.bcahungary.acme.WorkItemTest@bae7dc0]" started-at="2024-09-25T01:38:57 CEST" name="testWorkItemsList" finished-at="2024-09-25T01:39:18 CEST" duration-ms="21454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWorkItemsList -->
+        <test-method signature="testMoreThan13WorkItems()[pri:0, instance:com.bcahungary.acme.WorkItemTest@bae7dc0]" started-at="2024-09-25T01:39:18 CEST" name="testMoreThan13WorkItems" finished-at="2024-09-25T01:39:18 CEST" depends-on-methods="com.bcahungary.acme.WorkItemTest.testWorkItemsList" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMoreThan13WorkItems -->
+        <test-method signature="testWriteWorkItemsToFile()[pri:0, instance:com.bcahungary.acme.WorkItemTest@bae7dc0]" started-at="2024-09-25T01:39:18 CEST" name="testWriteWorkItemsToFile" finished-at="2024-09-25T01:39:18 CEST" depends-on-methods="com.bcahungary.acme.WorkItemTest.testWorkItemsList" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWriteWorkItemsToFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bcahungary.acme.WorkItemTest@bae7dc0]" started-at="2024-09-25T01:39:18 CEST" name="tearDown" finished-at="2024-09-25T01:39:19 CEST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bcahungary.acme.WorkItemTest -->
+      <class name="com.bcahungary.acme.WebsiteLoadTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bcahungary.acme.WebsiteLoadTest@52af26ee]" started-at="2024-09-25T01:38:46 CEST" name="setUp" finished-at="2024-09-25T01:38:47 CEST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWebsiteLoad()[pri:0, instance:com.bcahungary.acme.WebsiteLoadTest@52af26ee]" started-at="2024-09-25T01:38:47 CEST" name="testWebsiteLoad" finished-at="2024-09-25T01:38:48 CEST" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebsiteLoad -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bcahungary.acme.WebsiteLoadTest@52af26ee]" started-at="2024-09-25T01:38:48 CEST" name="tearDown" finished-at="2024-09-25T01:38:49 CEST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bcahungary.acme.WebsiteLoadTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
